@@ -13,7 +13,7 @@
  * @author Guillaume Prevost <guillaume.prevost@rmi.edu.au>
  *
  */
-class Php_Env extends AbstractPicoPlugin {
+class Pico_Env extends AbstractPicoPlugin {
 
   public function onContentLoaded(&$rawContent) {
     $rawContent = preg_replace(
